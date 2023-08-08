@@ -30,22 +30,22 @@
 #import <Foundation/Foundation.h>
 #endif
 
-#import <SVGgh/GHButton.h>
-#import <SVGgh/GHControl.h>
-#import <SVGgh/GHControlFactory.h>
-#import <SVGgh/GHImageCache.h>
-#import <SVGgh/GHSegmentedControl.h>
-#import <SVGgh/GHRenderable.h>
-#import <SVGgh/SVGDocumentView.h>
-#import <SVGgh/SVGRendererLayer.h>
-#import <SVGgh/SVGParser.h>
-#import <SVGgh/SVGRenderer.h>
-#import <SVGgh/SVGPrinter.h>
-#import <SVGgh/SVGtoPDFConverter.h>
-#import <SVGgh/SVGPathGenerator.h>
-#import <SVGgh/SVGTabBarItem.h>
-#import <SVGgh/SVGghLoader.h>
-#import <SVGgh/GHCSSStyle.h> // not yet implemented, somebody want to implement a CSS parser?
+#import "GHButton.h"
+#import "GHControl.h"
+#import "GHControlFactory.h"
+#import "GHImageCache.h"
+#import "GHSegmentedControl.h"
+#import "GHRenderable.h"
+#import "SVGDocumentView.h"
+#import "SVGRendererLayer.h"
+#import "SVGParser.h"
+#import "SVGRenderer.h"
+#import "SVGPrinter.h"
+#import "SVGtoPDFConverter.h"
+#import "SVGPathGenerator.h"
+#import "SVGTabBarItem.h"
+#import "SVGghLoader.h"
+#import "GHCSSStyle.h" // not yet implemented, somebody want to implement a CSS parser?
 
 /*! \brief Because views and buttons are dynamically instantiated from Storyboards and Nibs, code for their classes might not link in from a static library. Thus this method to make sure the class gets called at least once from code.
 */
